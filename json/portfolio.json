@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "title": "Square Eyes",
+        "icon": "images/icons/faviconsquareeyes.png",
+        "logo": "images/portfolio/squareeyes-logo.png",
+        "image": [
+            {
+                "url": "images/portfolio/squareeyes-home.jpg",
+                "text": "Home page of Square Eyes"
+            },
+            {
+                "url": "images/portfolio/squareeyes-films.jpg",
+                "text": "Film section of Square Eyes"
+            },
+            {
+                "url": "images/portfolio/squareeyes-about.jpg",
+                "text": "About Us page of Square Eyes"
+            }
+        ],
+        "description": "<p>Square Eyes was our first assignment at Noroff. We were given three options to build a website from, and I chose the streaming site Square Eyes. We were provided with the logo and clear guidelines on how the site should be designed. As a result, I mainly adapted the logo in terms of colours. I drew inspiration from well-known streaming platforms like Netflix, Amazon Prime, HBO, etc.</p><p>Square Eyes is primarily built using only HTML and CSS, as these were the main focus of the assignment. I used just a bit of JavaScript to make the carousel function properly. Despite being just a mock-up site focused on design, it works well and offers good user functionality.</p>",
+        "github": "https://github.com/NoroffFEU/html-css-course-assignment-RunarPettersen",
+        "link": "https://norofffeu.github.io/html-css-course-assignment-RunarPettersen/"
+    },
+    {
+        "id": 2,
+        "title": "Community Science Museum",
+        "icon": "images/icons/faviconcsm.png",
+        "logo": "images/portfolio/csm-logo.png",
+        "image": [
+            {
+                "url": "images/portfolio/csm-home.jpg",
+                "text": "Home page of Community Science Museum"
+            },
+            {
+                "url": "images/portfolio/csm-exhibitions.jpg",
+                "text": "Exhibitions section of Community Science Museum"
+            },
+            {
+                "url": "images/portfolio/csm-explore.jpg",
+                "text": "Explore section of Community Science Museum"
+            }
+        ],
+        "description": "<p>The Community Science Museum was our first semester project at Noroff. We were given clear guidelines on how to complete the assignment. For example, we were not allowed to use JavaScript—only HTML and CSS. The design needed to be child-friendly but not overly childish. The task described a museum for older children, so I aimed for a design that could be fun for kids. I created Professor Kaos, a character I drew myself, and incorporated into various parts of the site.</p><p>I also designed the logo, which features a test tube cleverly used as both the 'I' and 'U' in the name.</p>",
+        "github": "https://github.com/RunarPettersen/community-science-museum",
+        "link": "https://runarpettersen.github.io/community-science-museum/"
+    },
+    {
+        "id": 3,
+        "title": "Rainy Days",
+        "icon": "images/icons/faviconrainydays.png",
+        "logo": "images/portfolio/rainydays-logo.png",
+        "image": [
+            {
+                "url": "images/portfolio/rainydays-home.jpg",
+                "text": "Home page of Rainy Days"
+            },
+            {
+                "url": "images/portfolio/rainydays-products.jpg",
+                "text": "Product page of Rainy Days"
+            },
+            {
+                "url": "images/portfolio/rainydays-about.jpg",
+                "text": "About Us page of Rainy Days"
+            }
+        ],
+        "description": "<p>Rainy Days was our first assignment focused on learning JavaScript. The main task was to create a functioning shopping system where users could add products to a shopping cart, adjust the cart, and complete a checkout process. We were given the option to continue working on our very first project or choose one of the other two options and start from scratch. I chose to start fresh, as I felt it offered more learning opportunities by building it from the ground up.</p><p>For this assignment, everything from the logo to the products was pre-designed. However, I was free to customize the logo to my liking and select a color scheme to build the overall design around.</p>",
+        "github": "https://github.com/RunarPettersen/rainy-days",
+        "link": "https://runarpettersen.github.io/rainy-days/"
+    },
+    {
+        "id": 4,
+        "title": "Secret Oslo",
+        "icon": "images/icons/faviconsecretoslo.png",
+        "logo": "images/portfolio/secretoslo-logo.png",
+        "image": [
+            {
+                "url": "images/portfolio/secretoslo-home.jpg",
+                "text": "Home page of Secret Oslo"
+            },
+            {
+                "url": "images/portfolio/secretoslo-history.jpg",
+                "text": "History section of Secret Oslo"
+            },
+            {
+                "url": "images/portfolio/secretoslo-discover.jpg",
+                "text": "Discover archive of Secret Oslo"
+            }
+        ],
+        "description": "<p>NorWave was mine final exam project for the first year at Noroff, where we were required to apply everything we had learned throughout the year. This meant working exclusively with HTML, CSS, JS, and APIs. We had the option to use a business concept provided by the school or come up with our own idea. I chose to create my own concept.</p><p>My idea was inspired by an initiative from the Norwegian government in the 1990s, when a wave of great Norwegian films was promoted under the name NorWave. I imagined how a modern website for that purpose would look today. I started by designing a logo that referenced both film and waves. Once the logo was complete, I based the rest of the website's design around it.</p><p>In addition to a feature for creating news posts, the site also includes a film database showcasing Norwegian films.</p>",
+        "github": "https://github.com/RunarPettersen/secretoslo",
+        "link": "https://secretoslo.no"
+    },
+    {
+        "id": 5,
+        "title": "NorWave",
+        "icon": "images/icons/faviconnorwave.png",
+        "logo": "images/portfolio/norwave-logo.png",
+        "image": [
+            {
+                "url": "images/portfolio/norwave-home.jpg",
+                "text": "Home page of NorWave"
+            },
+            {
+                "url": "images/portfolio/norwave-news.jpg",
+                "text": "News section of NorWave"
+            },
+            {
+                "url": "images/portfolio/norwave-films.jpg",
+                "text": "Films archive of NorWave"
+            }
+        ],
+        "description": "<p>NorWave was mine final exam project for the first year at Noroff, where we were required to apply everything we had learned throughout the year. This meant working exclusively with HTML, CSS, JS, and APIs. We had the option to use a business concept provided by the school or come up with our own idea. I chose to create my own concept.</p><p>My idea was inspired by an initiative from the Norwegian government in the 1990s, when a wave of great Norwegian films was promoted under the name NorWave. I imagined how a modern website for that purpose would look today. I started by designing a logo that referenced both film and waves. Once the logo was complete, I based the rest of the website's design around it.</p><p>In addition to a feature for creating news posts, the site also includes a film database showcasing Norwegian films.</p>",
+        "github": "https://github.com/RunarPettersen/project-exam-1-runar",
+        "link": "https://runarpettersen.github.io/project-exam-1-runar/"
+    }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search results for Runar's Portfolio.">
+    <meta name="robots" content="index, follow">
+    <title>Runar's Portfolio - Search Results</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/runarsicon96x96.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="portfolio-header">
+        <div class="header-logo">
+            <a href="../index.html">
+                <img src="../images/runarportfoliologo.png" alt="Portfolio Logo">
+            </a>
+        </div>
+        <div class="top-right-icons">
+            <div class="grid-icon">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="user-icon">
+                <img src="../images/runar.png" alt="User Avatar" />
+            </div>
+        </div>
+    </header>
+
+    <div class="search-container"></div>
+        <div class="search-header">
+            <a href="./index.html" class="logo">My Portfolio</a>
+            <form class="search-bar" action="./search-results.html" method="get">
+                <input type="text" name="query" value="" placeholder="Search my projects" />
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <main class="search-results-container" id="search-results-container">
+        <!-- Search results will be dynamically added here -->
+    </main>
+
+    <script type="module" src="./js/search-results.js"></script>
+</body>
+</html>

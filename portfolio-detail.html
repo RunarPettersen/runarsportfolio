@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover detailed information about the projects of Runar Pettersen, a Frontend Developer.">
+    <meta name="robots" content="index, follow">
+    <title>Runar's Portfolio - Portfolio Detail</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="images/runarsicon96x96.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="portfolio-header">
+        <div class="header-logo">
+            <a href="../index.html">
+                <img src="../images/runarportfoliologo.png" alt="Portfolio Logo">
+            </a>
+        </div>
+        <div class="top-right-icons">
+            <div class="grid-icon">
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+                <div class="square"></div>
+            </div>
+            <div class="user-icon">
+                <img src="../images/runar.png" alt="User Avatar" />
+            </div>
+        </div>
+    </header>
+
+    <div class="portfolio-container">
+        <div class="portfolio-detail">
+            <h1 id="project-title"></h1>
+            <div id="project-images" class="project-images"></div>
+            <p id="project-description"></p>
+            <div class="project-links">
+                <a id="project-github" href="#" target="_blank">GitHub</a>
+                <a id="project-link" href="#" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" style="display: none;">
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Lightbox Image">
+            <p id="lightbox-caption"></p>
+            <button class="close-lightbox">×</button>
+            <button id="lightbox-prev" class="lightbox-arrow lightbox-arrow-left">‹</button>
+            <button id="lightbox-next" class="lightbox-arrow lightbox-arrow-right">›</button>
+        </div>
+    </div>    
+
+    <script type="module" src="js/portfolio-detail.js"></script>
+</body>
+</html>
