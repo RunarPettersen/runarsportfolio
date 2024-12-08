@@ -8,10 +8,10 @@ export function injectPopups() {
                 <div class="grid-icons">
                     <a href="mailto:runarpettersen77@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
                     <a href="tel:004741191047" target="_blank" title="Phone"><i class="fa-solid fa-phone"></i></a>
-                    <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://facebook.com/yourprofile" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/RunarPettersen" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/runarpettersen/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/runar_pettersen/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/runar-pettersen-879b7aab/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
