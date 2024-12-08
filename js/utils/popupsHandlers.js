@@ -32,17 +32,30 @@ export function initializePopups() {
 
     gridIcon.addEventListener('click', () => {
         const rect = gridIcon.getBoundingClientRect();
-        gridPopup.style.top = `${rect.bottom + window.scrollY + 10}px`;
-        gridPopup.style.left = `${rect.left + rect.width / 2 - gridPopup.offsetWidth / 2}px`;
-        gridPopup.classList.add('active');
+        const popupWidth = gridPopup.offsetWidth;
+
+        const topPosition = rect.bottom + window.scrollY + 10;
+        const leftPosition = Math.max(
+            rect.left + rect.width / 2 - popupWidth / 2,
+            10
+        );
+
+        const rightOverflow = leftPosition + popupWidth - window.innerWidth;
+        const adjustedLeftPosition = rightOverflow > 0 ? leftPosition - rightOverflow - 10 : leftPosition;
+
+        gridPopup.style.top = `${topPosition}px`;
+        gridPopup.style.left = `${Math.max(adjustedLeftPosition, 10)}px`;
+        gridPopup.classList.toggle('active');
     });
 
-    closeGridPopup.addEventListener('click', () => {
-        gridPopup.classList.remove('active');
-    });
+    if (closeGridPopup) {
+        closeGridPopup.addEventListener('click', () => {
+            gridPopup.classList.remove('active');
+        });
+    }
 
     document.addEventListener('click', (event) => {
-        if (!gridPopup.contains(event.target) && event.target !== gridIcon) {
+        if (!gridPopup.contains(event.target) && !gridIcon.contains(event.target)) {
             gridPopup.classList.remove('active');
         }
     });
