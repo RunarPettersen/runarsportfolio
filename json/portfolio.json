@@ -87,7 +87,7 @@
                 "text": "Discover archive of Secret Oslo"
             }
         ],
-        "description": "<p>NorWave was mine final exam project for the first year at Noroff, where we were required to apply everything we had learned throughout the year. This meant working exclusively with HTML, CSS, JS, and APIs. We had the option to use a business concept provided by the school or come up with our own idea. I chose to create my own concept.</p><p>My idea was inspired by an initiative from the Norwegian government in the 1990s, when a wave of great Norwegian films was promoted under the name NorWave. I imagined how a modern website for that purpose would look today. I started by designing a logo that referenced both film and waves. Once the logo was complete, I based the rest of the website's design around it.</p><p>In addition to a feature for creating news posts, the site also includes a film database showcasing Norwegian films.</p>",
+        "description": "<p>Secret Oslo is a site I created to experiment further with what I learned during the JavaScript module at Noroff. I wanted to deepen my understanding of APIs, and it all started with retrieving information from a couple of free API services to display the weather and time in Oslo. Next, I wanted to experiment more with map functions, GPS, and how to integrate them into a site like this. Using text I had previously written about Oslo, the project took off. Although this was initially a site I created to improve my skills in APIs and JavaScript, I was so pleased with the result that I purchased a domain for it, and the site is now live online.</p>",
         "github": "https://github.com/RunarPettersen/secretoslo",
         "link": "https://secretoslo.no"
     },
