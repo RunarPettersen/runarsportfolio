@@ -34,19 +34,29 @@
             <a href="./portfolio/"><img src="./images/runarportfoliologo.png" alt="User Avatar" /></a>
         </div>  
     </div>
-    <div class="search-bar-container"></div>
-        <form class="search-bar" action="./search-results.html" method="get">
-            <input type="text" name="query" placeholder="Search my projects" />
-            <div class="buttons">
-                <button type="submit">Search</button>
-                <button type="button">I'm Feeling Creative</button>
-            </div>
-        </form>
-    </div>   
+    <div class="search-bar-container">
+      <form class="search-bar" action="./search-results.html" method="get">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="query" placeholder="Search my projects" />
+        </div>
+        <div class="buttons">
+          <button type="submit">Search</button>
+          <button type="button">I'm Feeling Creative</button>
+        </div>
+      </form>
+    </div>
 
     <div class="portfolio-icons"></div>
 
-    <script type="module" src="js/main.js"></script>
+    <div id="creative-popup" class="creative-popup hidden">
+      <div class="creative-popup-content">
+        <span class="close-popup" id="close-creative-popup">&times;</span>
+        <h2>Let’s Be Creative!</h2>
+        <p>So do I! Let’s be creative together!<br>Contact me at <a href="mailto:runarpettersen77@gmail.com">runarpettersen77@gmail.com</a> today!</p>
+      </div>
+    </div>
 
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

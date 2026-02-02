@@ -20,24 +20,32 @@ async function loadPortfolioDetail() {
             return;
         }
 
-        document.title = `Runar Pettersen's Portfolio - ${project.title}`;
+        /* ---------- META ---------- */
 
-        const metaDescription = document.querySelector('meta[name="description"]');
-        if (metaDescription) {
-            metaDescription.setAttribute(
-                'content',
-                project.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 150)
-            );
-        } else {
-            const meta = document.createElement('meta');
-            meta.name = 'description';
-            meta.content = project.description.replace(/<\/?[^>]+(>|$)/g, "").slice(0, 150);
-            document.head.appendChild(meta);
+        document.title = `Runar Pettersen – ${project.title}`;
+
+        const cleanDescription = project.description
+            .replace(/<\/?[^>]+(>|$)/g, '')
+            .slice(0, 160);
+
+        let metaDescription = document.querySelector('meta[name="description"]');
+        if (!metaDescription) {
+            metaDescription = document.createElement('meta');
+            metaDescription.name = 'description';
+            document.head.appendChild(metaDescription);
         }
+        metaDescription.content = cleanDescription;
+
+        /* ---------- CONTENT ---------- */
 
         document.getElementById('project-title').textContent = project.title;
+        document.getElementById('project-description').innerHTML = project.description;
+
+        /* ---------- IMAGES ---------- */
 
         const imagesContainer = document.getElementById('project-images');
+        imagesContainer.innerHTML = '';
+
         project.image.forEach((imageObj, index) => {
             const imgWrapper = document.createElement('div');
             imgWrapper.classList.add('image-wrapper');
@@ -46,13 +54,13 @@ async function loadPortfolioDetail() {
             img.src = imageObj.url;
             img.alt = imageObj.text;
             img.classList.add('project-thumbnail');
-            imgWrapper.appendChild(img);
 
             const caption = document.createElement('p');
             caption.textContent = imageObj.text;
             caption.classList.add('image-caption');
-            imgWrapper.appendChild(caption);
 
+            imgWrapper.appendChild(img);
+            imgWrapper.appendChild(caption);
             imagesContainer.appendChild(imgWrapper);
 
             img.addEventListener('click', () => {
@@ -60,9 +68,33 @@ async function loadPortfolioDetail() {
             });
         });
 
-        document.getElementById('project-description').innerHTML = project.description;
-        document.getElementById('project-github').href = project.github;
-        document.getElementById('project-link').href = project.link;
+        /* ---------- LINKS (ONLY IF PRESENT) ---------- */
+
+        const githubBtn = document.getElementById('project-github');
+        const liveBtn = document.getElementById('project-link');
+        const websiteBtn = document.getElementById('project-website');
+
+        if (project.github) {
+            githubBtn.href = project.github;
+            githubBtn.style.display = 'inline-block';
+        } else {
+            githubBtn.style.display = 'none';
+        }
+
+        if (project.link) {
+            liveBtn.href = project.link;
+            liveBtn.style.display = 'inline-block';
+        } else {
+            liveBtn.style.display = 'none';
+        }
+
+        if (project.website) {
+            websiteBtn.href = project.website;
+            websiteBtn.style.display = 'inline-block';
+        } else {
+            websiteBtn.style.display = 'none';
+        }
+
     } catch (error) {
         console.error('Error loading portfolio data:', error);
         document.body.innerHTML = '<h1>Error loading project details</h1>';
@@ -70,5 +102,4 @@ async function loadPortfolioDetail() {
 }
 
 initializeLightbox();
-
 loadPortfolioDetail();

@@ -33,8 +33,13 @@ body.portfolio-page  {
     cursor: pointer;
 }
 
+.project-images img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
 
-#project-link, #project-github {
+
+#project-link, #project-github, #project-website {
     display: inline-block;
     width: 90px;
     margin-top: 20px;
@@ -46,7 +51,7 @@ body.portfolio-page  {
     transition: background-color 0.3s;
 }
 
-#project-link:hover {
+#project-link:hover, #project-github:hover, #project-website:hover {
     background-color: #3367d6;
 }
 
@@ -75,14 +80,18 @@ body.portfolio-page  {
     position: absolute;
     top: 20px;
     right: 20px;
+    background: none;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     cursor: pointer;
+    border: none;
     font-weight: bold;
+    transition: transform 0.7s ease;
 }
 
 .close-lightbox:hover {
-    color: #f00;
+    color: #4285f4;
+    transform: rotate(-180deg);
 }
 
 .lightbox-arrow {
@@ -299,17 +308,6 @@ body.portfolio-page  {
     font-size: 16px;
     color: #fff;
     margin: 10px 0;
-}
-
-.close-lightbox {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: none;
-    color: #fff;
-    font-size: 24px;
-    border: none;
-    cursor: pointer;
 }
 
 .lightbox-arrow {

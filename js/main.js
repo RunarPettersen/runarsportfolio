@@ -9,5 +9,16 @@ initializePopups();
 loadPortfolioIcons('.portfolio-icons', './json/portfolio.json');
 
 document.querySelector('.buttons button[type="button"]').addEventListener('click', () => {
-    alert("So do I! Let's be creative together! Contact me at runarpettersen77@gmail.com today!");
+    document.getElementById('creative-popup').classList.remove('hidden');
+});
+
+document.getElementById('close-creative-popup').addEventListener('click', () => {
+    document.getElementById('creative-popup').classList.add('hidden');
+});
+
+window.addEventListener('click', (e) => {
+    const popup = document.getElementById('creative-popup');
+    if (e.target === popup) {
+        popup.classList.add('hidden');
+    }
 });

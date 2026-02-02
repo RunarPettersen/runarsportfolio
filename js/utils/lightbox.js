@@ -50,4 +50,22 @@ export function initializeLightbox() {
 
     prevArrow.addEventListener('click', showPreviousImage);
     nextArrow.addEventListener('click', showNextImage);
+
+    // ✅ Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox.style.display === 'flex') {
+            switch (e.key) {
+                case 'Escape':
+                    lightbox.style.display = 'none';
+                    break;
+                case 'ArrowLeft':
+                    showPreviousImage();
+                    break;
+                case 'ArrowRight':
+                    showNextImage();
+                    break;
+            }
+        }
+    });
 }

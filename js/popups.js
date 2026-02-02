@@ -11,7 +11,7 @@ export function injectPopups() {
                     <a href="https://github.com/RunarPettersen" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
                     <a href="https://www.facebook.com/runarpettersen/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/runar_pettersen/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/runar-pettersen-879b7aab/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/runarpettersen/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
@@ -26,9 +26,9 @@ export function injectPopups() {
                 <p>Frontend Developer</p>
                 <p>Passionate about creating intuitive, fun and cool web applications.</p>
                 <p>Also do logo design, graphic design and illustrations</p>
-                <p><strong>Skills:</strong> HTML, CSS, JavaScript, Figma, and more!</p>
+                <p><strong>Skills:</strong> HTML, CSS, JavaScript, React Native, Tailwind CSS, Figma, and more!</p>
                 <p><strong>Tools:</strong> Figma, Visual Studio Code, Adobe Illustrator, Adobe Photoshop, Adobe InDesign, and Adobe Premier Pro!</p>
-                <p><strong>Email:</strong> runarpettersen77@gmail.com</p>
+                <p><strong>Email:</strong> <a href="mailto:runarpettersen77@gmail.com" target="_blank" title="Email">runarpettersen77@gmail.com</a></p>
                 <button id="close-popup">Close</button>
             </div>
         </div>
