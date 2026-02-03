@@ -195,15 +195,15 @@
         "image": [
             {
                 "url": "images/portfolio/myliquorshelf-home.jpg",
-                "text": "Home page of Bugøynes Festival"
+                "text": "Home page of My Liquor Shelf"
             },
             {
                 "url": "images/portfolio/myliquorshelf-drinks.jpg",
-                "text": "Tickets section of Bugøynes Festival"
+                "text": "Drinks section of My Liquor Shelf"
             },
             {
                 "url": "images/portfolio/myliquorshelf-recipies.jpg",
-                "text": "Information page of Bugøynes Festival"
+                "text": "Recipies on My Liquor Shelf"
             }
         ],
         "description": "<p>My Liquor Shelf is a site I created to keep track of my home bar and the cocktail recipes I like. Since there wasn’t already a site that did exactly what I wanted, I decided to make one myself.</p><p>The site uses Firebase as its database and is built with Tailwind CSS and JavaScript.</p>",
@@ -219,15 +219,15 @@
         "image": [
             {
                 "url": "images/portfolio/howling-front.jpg",
-                "text": "Home page of Bugøynes Festival"
+                "text": "Home page of Howling"
             },
             {
                 "url": "images/portfolio/howling-feed.jpg",
-                "text": "Tickets section of Bugøynes Festival"
+                "text": "Feed on Howling"
             },
             {
                 "url": "images/portfolio/howling-post.jpg",
-                "text": "Information page of Bugøynes Festival"
+                "text": "A post on Howling"
             }
         ],
         "description": "<p>Howling is a social media client built with Tailwind CSS and JavaScript modules. The portfolio update focuses on making the authentication flow feel more professional, reducing “dev-style” alerts, and handling protected pages in a clearer, user-friendly way.</p>",
@@ -243,15 +243,15 @@
         "image": [
             {
                 "url": "images/portfolio/choppingmall-home.jpg",
-                "text": "Home page of Bugøynes Festival"
+                "text": "Home page of Chopping Mall"
             },
             {
                 "url": "images/portfolio/choppingmall-product.jpg",
-                "text": "Tickets section of Bugøynes Festival"
+                "text": "Product page on Chopping Mall"
             },
             {
                 "url": "images/portfolio/choppingmall-cart.jpg",
-                "text": "Information page of Bugøynes Festival"
+                "text": "Shopping cart on Chopping Mall"
             }
         ],
         "description": "<p>Chopping Mall is a Next.js webshop where the focus is component structure, routing, state management, and a smooth user flow from product listing to product detail and checkout success.</p>",
@@ -267,15 +267,15 @@
         "image": [
             {
                 "url": "images/portfolio/rustyrelics-home.jpg",
-                "text": "Home page of Bugøynes Festival"
+                "text": "Home page of Rusty Relics"
             },
             {
                 "url": "images/portfolio/rustyrelics-list.jpg",
-                "text": "Tickets section of Bugøynes Festival"
+                "text": "List of auctions on Rusty Relics"
             },
             {
                 "url": "images/portfolio/rustyrelics-auction.jpg",
-                "text": "Information page of Bugøynes Festival"
+                "text": "Auction page on Rusty Relics"
             }
         ],
         "description": "<p>Rusty Relics is an auction marketplace application built with the Noroff Auction API. For the portfolio update, I focused on polishing UX details and tightening the codebase around pagination, user feedback messages, and listing media presentation.</p>",
