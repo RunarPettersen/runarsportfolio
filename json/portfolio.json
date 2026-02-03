@@ -7,15 +7,15 @@
         "image": [
             {
                 "url": "images/portfolio/thiscursedearth-home.jpg",
-                "text": "Home page of Bugøynes Festival"
+                "text": "Home page of This Cursed Earth"
             },
             {
                 "url": "images/portfolio/thiscursedearth-list.jpg",
-                "text": "Tickets section of Bugøynes Festival"
+                "text": "List of destinations on This Cursed Earth"
             },
             {
                 "url": "images/portfolio/thiscursedearth-articles.jpg",
-                "text": "Information page of Bugøynes Festival"
+                "text": "Articles on This Cursed Earth"
             }
         ],
         "description": "<p>This Cursed Earth is a site about places you can visit that are unique, rare, dark and mysterious. It is a real website that is online and under constant development.</p><p>The site is built with Tailwind CSS and JavaScript, and uses Firebase as its database.</p>",
