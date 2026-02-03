@@ -1,7 +1,7 @@
 # Runar's Portfolio
 
 
-Runar’s Portfolio is a project from Noroff where we learn how to create a portfolio site. 
+Runar’s Portfolio is a project from Noroff where we learn how to create a portfolio site. It has later been updated to work as my portfolio page in general to show off what I have be making.
 
 ## Description
 
